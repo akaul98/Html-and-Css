@@ -67,3 +67,34 @@ aside{
   border-bottom: 5px solid #1098ad;
 
 }
+
+/*  basics of Pseudo class */
+/* li:first-child{
+  font-weight: bold;
+}
+
+li:last-child{
+  font-style: italic;
+}
+
+li:nth-child(2){
+  color:red;
+
+} */
+
+/* Styling anchor Tag */
+
+a:link{
+  color:#1098ad;
+  text-decoration: none;
+}
+a:visited{
+  color: #1098ad;
+}
+
+a:hover{
+  color:orangered;
+  text-decoration: underline  orangered;
+  font-weight:bold;
+}
+
