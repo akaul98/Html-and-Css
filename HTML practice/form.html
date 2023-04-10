@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form for QA</title>
+</head>
+
+<body>
+  <form>
+    <!-- Personal Info -->
+    <div class="row">
+      <div class="column">
+        <label>Name:</label><input type="text">
+      </div>
+      <div class="column">
+        <label>Mobile:</label><input type="number">
+      </div>
+      <div class="column"> <label>Gender:</label><input type="radio" id="gender" name="gender" value="male" /> Male
+        <input type="radio" id="gender" name="gender" value="female" /> Female
+      </div>
+    </div>
+    <label>Email:</label><input type="email">
+
+    <!-- Insurance Info  -->
+    <!-- DropDown multi-select -->
+    <label for="insurance">Choose a Type of Insurance:</label>
+    <select name="insurance" id="insurance">
+      <option value="house">house</option>
+      <option value="car">car</option>
+      <option value="phone">phone</option>
+      <option value="health">health</option>
+    </select>
+    <label>Insurance No:</label><input type="text">
+    <label>Insurance Description</label><textarea name="w3review" rows="4" cols="50"></textarea>
+    <label>Start Date:</label><input type="date">
+    <label>End Date:</label><input type="date">
+    <label>Renew DateTime:</label><input type="datetime-local">
+
+    <label>Status:</label><input type="checkbox">
+
+
+
+  </form>
+</body>
+
+</html>
