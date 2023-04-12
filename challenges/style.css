@@ -1,37 +1,96 @@
+*{
+  margin:0;
+  padding:0
+}
+
+
 body{
-  border: 5px solid black;
+
   font-family: sans-serif;
   line-height: 1.5;
 }
+.product{
+  border: 5px solid black;
+  
+  
+}
+.container{
+  margin:40px auto;
+  width:825px;
+  height: 80%
+}
 
-.head{
+.product-header{
   text-align: center;
   background-color: #b7b7b7;
   text-transform: uppercase;
+  margin-bottom:20px;
+  padding:20px
 }
 .shipping{
   text-transform: uppercase;
   color: #b7b7b7;
   font-size: 8px;
   font-weight: strong;
+  margin-bottom:20px
 }
 
-a:hover{
+ol,ul{
+  margin-left: 20px;
+}
+li{
+ 
+  margin-bottom:5px;
+}
+
+.more-info:link, .more-info:visited {
+  color: black;
+  margin-bottom:20px
+}
+
+.details{
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom:20px
+}
+
+p{
+  margin-bottom:20px;
+}
+
+.more-info:hover , .more-info:active{
   text-decoration: none;
+
 }
 
-button{
+.add-cart{
   color:white;
   background-color: black;
-  border: none
+  width:100%;
+  border: none;
+  border-top: 5px solid black;
+  text-align: center;
+  height: 100%;
+  padding:10px;
+  text-transform: uppercase;
 ;
 }
-button:hover{
+.add-cart:hover{
   color: black;
-  background-color: white
+  background-color: white;
+  width:100%;
+  text-align: center;
+  height: 100%;
+  padding:10px
 }
 
  li{
   list-style: square;
 }
+
+h1::first-letter{
+  font-style: normal;
+  margin-right: 5px;
+}
+
 
