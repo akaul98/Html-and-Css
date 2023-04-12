@@ -9,10 +9,21 @@ body{
   font-family: sans-serif;
   line-height: 1.5;
 }
+
+.product::before{
+  content:"SALE";
+  background-color:red;
+  position:absolute;
+  margin-left: -25px;
+  letter-spacing: 5px;
+  margin-top:-25px;
+  padding: 5px;
+  color:white
+}
+
 .product{
   border: 5px solid black;
-  
-  
+  position: relative;
 }
 .container{
   margin:40px auto;
@@ -45,7 +56,8 @@ li{
 
 .more-info:link, .more-info:visited {
   color: black;
-  margin-bottom:20px
+  margin-bottom:20px;
+
 }
 
 .details{
@@ -91,6 +103,33 @@ p{
 h1::first-letter{
   font-style: normal;
   margin-right: 5px;
+}
+
+.color{
+  background-color: black;
+  width: 22px;
+  height:22px;
+  display:inline-block;
+  padding:13px
+}
+
+.color-blue{
+  background-color: blue;
+}
+
+.color-red{
+  background-color: red;
+}
+
+.color-green{
+  background-color: green;
+}
+
+.color-yellow{
+  background-color: yellow;
+}
+.color-brown{
+  background-color: brown;
 }
 
 
