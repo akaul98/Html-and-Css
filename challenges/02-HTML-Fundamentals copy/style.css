@@ -248,3 +248,16 @@ footer{
   display: flex;
   gap: 20px;
 }
+
+.parent-class{
+  display: flex;
+  gap:75px;
+}
+
+article{
+  flex:1 
+}
+
+aside{
+  flex: 0 0 300px
+}
